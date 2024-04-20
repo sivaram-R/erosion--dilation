@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 ##### Create the Text using cv2.putText
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
-font = cv2.FONT_HERSHEY_SIMPLEX
+font = cv2.FONT_HERSHEY_TRIPLEX
 cv2.putText(img ,'SIVARAM',(60,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
@@ -57,17 +57,13 @@ plt.axis('off')
 img_dilate = cv2.dilate(img,kernel1)
 plt.imshow(img_dilate)
 plt.axis('off')
-
-
-
 ```
 ### Output:
 #### Display the input Image
-![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/6dc17501-74f2-4596-9463-eb7ef7a1d8a5)
+![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/3ebbc043-19ee-4f92-b00b-cfded77ca3a6)
 #### Display the Eroded Image
-![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/7ba8a7bf-9f7f-4755-84d7-9cae8909d7e3)
+![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/362de072-5778-4479-af31-e9b8f3710f93)
 #### Display the Dilated Image
-![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/79bcf1de-e38f-4115-b990-f04eaddf3deb)
-
+![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/22ccd7ec-0ccb-48bc-87b8-9aa178bad893)
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
