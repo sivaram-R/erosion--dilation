@@ -23,11 +23,8 @@ Dilate the Image
 
  
 ### Program:
-```
-NAME: Deepika S
-REG.NO: 212222230028
-```
-
+NAME: Sivaram R
+REG.NO: 212222100050
 ##### Import the necessary packages
 ``` Python
 import numpy as np
@@ -38,7 +35,7 @@ import matplotlib.pyplot as plt
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img ,'Deepika',(60,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img ,'SIVARAM',(60,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 ```
@@ -66,10 +63,11 @@ plt.axis('off')
 ```
 ### Output:
 #### Display the input Image
-![1dipu](https://github.com/deepikasrinivasans/erosion--dilation/assets/119393935/c9c02fa8-c7ff-4457-b075-67880acfa233)
+![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/6dc17501-74f2-4596-9463-eb7ef7a1d8a5)
 #### Display the Eroded Image
-![2dipu](https://github.com/deepikasrinivasans/erosion--dilation/assets/119393935/b5036700-a067-40d2-bd82-bfe4b3c503c3)
+![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/7ba8a7bf-9f7f-4755-84d7-9cae8909d7e3)
 #### Display the Dilated Image
-![3dipu](https://github.com/deepikasrinivasans/erosion--dilation/assets/119393935/9a91dfaa-76cf-400d-a8d7-ac67c41acf62)
+![image](https://github.com/sivaram-R/erosion--dilation/assets/121165794/79bcf1de-e38f-4115-b990-f04eaddf3deb)
+
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
